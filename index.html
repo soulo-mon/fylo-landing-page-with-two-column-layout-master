@@ -3,25 +3,32 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
+
   <script src="https://kit.fontawesome.com/32fc7dbb2c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 
 <body>
   <header>
-    <img src="images/logo.svg" alt="brand-logo">
+    <img src="images/logo.svg" alt="brand-logo" style="width: 100px; ;">
     <nav>
       <ul>
-        <li>Features</li>
-        <li>Team</li>
-        <li>Sign In</li>
+        <a href="#">
+          <li>Features</li>
+        </a>
+        <a href="#">
+          <li>Team</li>
+        </a>
+        <a href="#">
+          <li>Sign In</li>
+        </a>
       </ul>
     </nav>
   </header>
@@ -43,26 +50,32 @@
       </div>
     </section>
 
+    <div class="backgroundImage">
+      <!-- <img src="images/bg-curve-mobile.svg" alt="background image"> -->
+    </div>
+
+
     <section class="secondSection">
-      <img src="images/illustration-2.svg" alt="second section image">
+      <img src="images/illustration-2.svg" alt="second section image" style="width: 100%; text-align: center;">
       <div class="secondSectionText">
-        <h2>Stay productive, wherever you are</h2>
+        <h3>Stay productive, wherever you are</h3>
         <p> Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.</p>
         <p> Securely share files and folders with friends, family and colleagues for
           live collaboration. No email attachments required!</p>
-        <a href="#">See how Fylo works <img src="images/icon-arrow.svg" alt="icon arrow image"></a>
+        <p class="paragraph"><a href="#">See how Fylo works <img src="images/icon-arrow.svg" alt="icon arrow image"></a>
+        </p>
       </div>
 
       <div class="testimoniesSection">
-        <h2>"</h2>
+        <h2>“</h2>
         <p> Fylo has improved our team productivity by an order of magnitude. Since
           making the switch our team has become a well-oiled collaboration machine.</p>
         <div class="nameAndImage">
           <img src="images/avatar-testimonial.jpg" alt="atestimonial avatar">
           <div class="nameAndRole">
-            <p>Kyle Burton</p>
-            <p>Founder & CEO, Huddle</p>
+            <p><b>Kyle Burton</b></p>
+            <p class="role">Founder & CEO, Huddle</p>
           </div>
         </div>
       </div>
@@ -84,7 +97,7 @@
   </main>
 
   <footer>
-    <img src="images/logo.svg" alt="brand logo">
+    <img src="images/fylo-logo-footer.png" alt="brand logo">
     <div class="phone">
       <img src="images/icon-phone.svg" alt="telephone image">
       <p>Phone: +1-543-123-4567</p>
@@ -109,12 +122,12 @@
         <li>Privacy</li>
       </ol>
     </nav>
-
+    <!-- 
     <div class="brandSocials">
-      <a href="#"><img src="images/facebook.svg" alt="facebook logo"></a>
-      <a href="#"><img src="images/square-x-twitter.svg" alt="twitter logo"></a>
-      <a href="#"><img src="images/instagram.svg" alt="instagram logo"></a>
-    </div>
+      <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+      <a href="#"><i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+    </div> -->
 
 
     <p class="attribution">
