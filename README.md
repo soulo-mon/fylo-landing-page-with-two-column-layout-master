@@ -1,92 +1,137 @@
-# Frontend Mentor - Fylo landing page with two column layout
+# Frontend Mentor - Fylo landing page with two column layout solution
 
-![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
+This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Frontend Mentor - Fylo landing page with two column layout solution](#frontend-mentor---fylo-landing-page-with-two-column-layout-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [1. Responsive Design:](#1-responsive-design)
+    - [2. Performance Optimization:](#2-performance-optimization)
+    - [3. Accessibility:](#3-accessibility)
+    - [4. Additional Features:](#4-additional-features)
+    - [5. Bug Fixes:](#5-bug-fixes)
+    - [6. User Feedback:](#6-user-feedback)
+    - [7. Documentation:](#7-documentation)
+    - [8. Security:](#8-security)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to: 
+Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+Mobile View - ![](images/mobile-view.png)
+Desktop View - ![](images/desktop-view.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: (https://github.com/soulo-mon/fylo-landing-page-with-two-column-layout-master)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## My process
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Built with
 
-## Building your project
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Fonts](https://fontawesome.com/) 
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
+### What I learned
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+How to use CSS Flexbox to control the arrangement and positioning of elements within a container.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+How to change the order of flex items using the order property.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+How to create responsive layouts for different screen sizes using media queries.
 
-## Create a custom `README.md`
+How to adjust the width of elements within a flex container using the flex property.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+How to use justify-content and align-items properties to control horizontal and vertical alignment.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+How to ensure images maintain their aspect ratio and fit within their container.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+The importance of testing and debugging your layouts across different screen sizes and browsers.
 
-## Submitting your solution
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Continued development
 
-## Sharing your solution
+While the current version of the project is functional and meets its primary objectives, there are still areas where I plan to continue development and improvement. Here are some of the planned enhancements and areas of focus:
 
-There are multiple places you can share your solution:
+### 1. Responsive Design:
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+- I aim to further optimize the website's responsiveness to ensure it looks and functions flawlessly on a wide range of devices and screen sizes.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+### 2. Performance Optimization:
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+- Implement performance improvements to enhance the website's loading speed and overall user experience. This may include optimizing images, reducing unnecessary code, and leveraging caching techniques.
 
-## Got feedback for us?
+### 3. Accessibility:
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+- Enhance the website's accessibility by adhering to best practices and standards, making it usable by individuals with disabilities.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+### 4. Additional Features:
 
-**Have fun building!** 🚀
+- Consider adding new features or functionality to enhance the website's capabilities and user engagement.
+
+### 5. Bug Fixes:
+
+- Address any reported bugs or issues to ensure a smooth and error-free user experience.
+
+### 6. User Feedback:
+
+- Continuously gather and analyze user feedback to make data-driven improvements and prioritize enhancements that align with user needs and expectations.
+
+### 7. Documentation:
+
+- Keep the project's documentation up-to-date to facilitate collaboration and ease of maintenance for myself and other contributors.
+
+### 8. Security:
+
+- Regularly review and update the project's security measures to protect user data and prevent vulnerabilities.
+
+As development progresses, I will update this section to reflect the latest plans and achievements. Feedback and contributions from the community are always welcome and appreciated as they play a crucial role in the project's growth and improvement.
+
+
+
+
+
+
+## Author
+
+- Website - [Udia Solomon](https://github.com/soulo-mon)
+- Frontend Mentor - [@soulo-mon](https://www.frontendmentor.io/profile/soulo-mon)
+- Twitter - [@soul0_mon](https://twitter.com/Soulo_mon)
+
+
+## Acknowledgments
+
+
+I would like to extend my appreciation to ChatGPT, the AI-powered assistant, for its invaluable assistance throughout the development of this project. ChatGPT has provided guidance, answers to my questions, and valuable insights that have contributed to the success of this endeavor.
+
+Thank you, ChatGPT, for being a helpful resource and a key partner in bringing this project to life.
+
+

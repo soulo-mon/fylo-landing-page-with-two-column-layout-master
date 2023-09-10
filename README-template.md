@@ -4,19 +4,27 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Fylo landing page with two column layout solution](#frontend-mentor---fylo-landing-page-with-two-column-layout-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [1. Responsive Design:](#1-responsive-design)
+    - [2. Performance Optimization:](#2-performance-optimization)
+    - [3. Accessibility:](#3-accessibility)
+    - [4. Additional Features:](#4-additional-features)
+    - [5. Bug Fixes:](#5-bug-fixes)
+    - [6. User Feedback:](#6-user-feedback)
+    - [7. Documentation:](#7-documentation)
+    - [8. Security:](#8-security)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,19 +37,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Mobile View - ![](images/mobile-view.png)
+Desktop View - ![](images/desktop-view.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/soulo-mon/fylo-landing-page-with-two-column-layout-master)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -53,59 +55,83 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Fonts](https://fontawesome.com/) 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+How to use CSS Flexbox to control the arrangement and positioning of elements within a container.
 
-To see how you can add code snippets, see below:
+How to change the order of flex items using the order property.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+How to create responsive layouts for different screen sizes using media queries.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+How to adjust the width of elements within a flex container using the flex property.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+How to use justify-content and align-items properties to control horizontal and vertical alignment.
+
+How to ensure images maintain their aspect ratio and fit within their container.
+
+The importance of testing and debugging your layouts across different screen sizes and browsers.
+
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+While the current version of the project is functional and meets its primary objectives, there are still areas where I plan to continue development and improvement. Here are some of the planned enhancements and areas of focus:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### 1. Responsive Design:
 
-### Useful resources
+- I aim to further optimize the website's responsiveness to ensure it looks and functions flawlessly on a wide range of devices and screen sizes.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+### 2. Performance Optimization:
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Implement performance improvements to enhance the website's loading speed and overall user experience. This may include optimizing images, reducing unnecessary code, and leveraging caching techniques.
+
+### 3. Accessibility:
+
+- Enhance the website's accessibility by adhering to best practices and standards, making it usable by individuals with disabilities.
+
+### 4. Additional Features:
+
+- Consider adding new features or functionality to enhance the website's capabilities and user engagement.
+
+### 5. Bug Fixes:
+
+- Address any reported bugs or issues to ensure a smooth and error-free user experience.
+
+### 6. User Feedback:
+
+- Continuously gather and analyze user feedback to make data-driven improvements and prioritize enhancements that align with user needs and expectations.
+
+### 7. Documentation:
+
+- Keep the project's documentation up-to-date to facilitate collaboration and ease of maintenance for myself and other contributors.
+
+### 8. Security:
+
+- Regularly review and update the project's security measures to protect user data and prevent vulnerabilities.
+
+As development progresses, I will update this section to reflect the latest plans and achievements. Feedback and contributions from the community are always welcome and appreciated as they play a crucial role in the project's growth and improvement.
+
+
+
+
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Udia Solomon](https://github.com/soulo-mon)
+- Frontend Mentor - [@soulo-mon](https://www.frontendmentor.io/profile/soulo-mon)
+- Twitter - [@soul0_mon](https://twitter.com/Soulo_mon)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to extend my appreciation to ChatGPT, the AI-powered assistant, for its invaluable assistance throughout the development of this project. ChatGPT has provided guidance, answers to my questions, and valuable insights that have contributed to the success of this endeavor.
+
+Thank you, ChatGPT, for being a helpful resource and a key partner in bringing this project to life.
+
+
