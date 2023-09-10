@@ -116,6 +116,10 @@ form button {
     height: 100px;
 }
 
+.secondSection>img {
+    width: 100%;
+}
+
 section.secondSection {
     background-color: hsl(240, 75%, 98%);
     padding: 10px;
@@ -334,10 +338,9 @@ footer .brandSocials {
 
     }
 
-    section>img {
+    .secondSection>img {
         width: 600px;
     }
-
 
     .secondSectionText h3 {
         text-align: left;
@@ -397,4 +400,30 @@ footer .brandSocials {
         padding: 10px;
         margin-bottom: 40px;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px;
+    }
+
+    .footer-first>img {
+        width: 200px;
+        height: 100px;
+        padding-bottom: 20px;
+    }
+
+    footer .footer-second {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+    .brandSocials {
+        display: flex;
+        width: 200px;
+        font-size: 30px;
+    }
+
 }
