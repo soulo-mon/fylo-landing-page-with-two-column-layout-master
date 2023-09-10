@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile View - ![](images/mobile-view.png)
-Desktop View - ![](images/desktop-view.png)
+![Mobile View](images/mobile-view.png)
+![Desktop View](images/desktop-view.png)
 
 
 ### Links
