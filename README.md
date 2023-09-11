@@ -37,14 +37,14 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile View - ![](images/mobile-view.png)
-Desktop View - ![](images/desktop-view.png)
+Mobile View - ![Mobile View](images/mobile-view.png)
+Mobile View - ![Desktop View](images/desktop-view.png)
 
 
 ### Links
 
 - Solution URL: (https://github.com/soulo-mon/fylo-landing-page-with-two-column-layout-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://soulo-mon.github.io/fylo-landing-page-with-two-column-layout-master/)
 
 ## My process
 
